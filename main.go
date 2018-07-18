@@ -14,7 +14,7 @@ import (
 	"time"
 )
 
-var password = flag.StringP("password", "p", "123!@#", "Password")
+var password = flag.StringP("password", "p", "words!@#", "Password")
 var keyfilename = flag.String("keyfile", os.Getenv("HOME")+"/.ssh/id_rsa", "key file")
 var prog = os.Args[0]
 var docu = "[user@]hostname[:port] \"command\""
